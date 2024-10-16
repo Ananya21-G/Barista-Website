@@ -1,0 +1,265 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    background-color: rgb(21,20,18);
+}
+.top-header{
+    height: 90px;
+    background-color: black;
+}
+.menu-area{
+    height: 90px;
+
+}
+.menu-area .dropdown-menu a:hover{
+    background-color: #C7A17A;
+    color: white;
+}
+#navbarNavDropdown .dropdown-toggle{
+    color: white;
+}
+#navbarNavDropdown .dropdown-toggle:hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #C7A17A;
+}
+.search-area a{
+    background-color: #C7A17A;
+    border: none;
+    color: white;
+    padding: 5px 10px; 
+    text-align: center;
+    font-size: 15px;
+    margin: 1px 2px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+.search-area{
+    margin-top: 35px;
+}
+.search-area a:hover {
+    background-color: black;
+}
+.happen_area h4{
+    color: #C7A17A!important;
+}
+.happen_area h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.happen_area hr{
+    color: antiquewhite;
+    width: 100px;
+    height: 2px;
+}
+#PLACES_TO_GET_LOST {
+    color: #C7A17A;
+}
+#para1 {
+    color: white;
+}
+#BEST_COFFEE_FLAVOURS {
+    color: #C7A17A;
+}
+#para2 {
+    color: white;
+}
+#BOX_TIMING {
+    color: white;
+}
+#BOX_TIMING {
+    background-image: url('../Barista_pic/background.jpg');
+    opacity: 0.8;
+    height: 450px;
+}
+#application_bg {
+    background-image: url('../Barista_pic/barista_our_app_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    
+}
+.application_background h5,.application_background h2,.application_background p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.application_background hr {
+    width: 20%;
+    border-top: 2px solid #C7A17A;
+    margin-left: 0;
+}
+.custom-button {
+    background-color: #C7A17A;
+    border: none;
+    color: white;
+    padding: 15px 32px; 
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 2px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.custom-button:hover {
+    background-color: black;
+}
+#four_picture {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#picture_1:hover {
+    opacity: 0.6;
+    border: 1px solid #C7A17A ;
+}
+#picture_2:hover {
+    opacity: 0.6;
+    border: 1px solid #C7A17A ;
+}
+#picture_3:hover {
+    opacity: 0.6;
+    border: 1px solid #C7A17A ;
+}
+#picture_4:hover {
+    opacity: 0.6;
+    border: 1px solid #C7A17A ;
+}
+#flavours {
+    color : #C7A17A!important;
+    opacity: none!important;
+}
+#BASE {
+    color: #C7A17A;
+}
+#hr1 {
+    width: 20%;
+    border-top: 2px solid #C7A17A;
+    margin-left: 50;
+}
+#hr3 {
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+#hr2 {
+    color: #C7A17A!important;
+}
+#p1 {
+    color: white;
+    font-size:medium;
+}
+#h4 {
+    width: 2%;
+    border-top: 2px solid #C7A17A;
+    margin-left: 0;
+}
+#hr4 {
+    height: 1px;
+    background-color: #C7A17A;
+    width: 70%;
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+.footer {
+    
+    height: 600px;
+    background-color: black;
+}
+.footer .link:hover{
+    color: #C7A17A;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.footer h3{
+    text-align: center;
+    color: #C7A17A;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+}
+.footer .opening{
+    color: white;
+
+}
+.footer  .link , .footer .dates{
+    color: white;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.footer .contact a{
+    margin: auto;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 18px;
+}
+.footer .contact a:hover{
+    color: #C7A17A;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.footer .contact h6 {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+}
+.footer .Location .maps {
+    margin:auto;
+    display: block;
+    border-radius: 5px;
+}
+.footer .Location a{
+    color: white;
+    text-decoration: none;
+    margin-left: 23px;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.footer .Location a:hover{
+    color: #C7A17A;
+}
+.footer .line{
+ margin: auto;
+    display: block;
+    width: 70%;
+    height: 1px; 
+    background-color: white;
+    margin-top: -10px;
+
+}
+.footer .copyright{
+    color: white;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 14px;
+    margin: auto;
+    display: block;
+    margin-top: -10px;
+}
+#BOX_TIMING{
+    color: white;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 10px;
+    text-shadow: 4px 4px 8px #000000;
+}
+.lost a{
+    text-decoration: none;
+    color: white;
+}
+.lost a:hover{
+    color: #C7A17A;
+}
+
+.carousel-item h5,.carousel-item p{
+    
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS bootstrap -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- CSS link -->
+
+     <link rel="stylesheet" href="./Barista_CSS/Booking.css">
+    <title>Booking</title>
+
+    <!-- ICON LINK -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+
+
+</head>
+<body>
+
+  <div class="container-fluid">
+
+
+    <!--header-->
+
+    <div class="row top-header">
+      <div class="container">
+          <div class="row">
+
+              <!-- logo{top-left-area} -->
+
+              <div class="col-md-3 col-sm-12 logo-area">
+                  <a href="./index.html"><img src="./Barista_pic/Logo.webp" alt="Logo" height="60px" width="130px" class="mt-3" ></a>
+              </div> 
+              
+              <!-- navigation bar bootstrap -->
+
+              <div class="col-md-7 col-sm-12 mt-3 menu-area">
+                  <nav class="navbar navbar-expand-lg navbar-light">
+                      <a class="navbar-brand" href="#">Navbar</a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+
+                          <!-- HOME dropdown -->
+
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                              HOME
+                            </a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="./index.html">MAIN HOME </a>
+                              <a class="dropdown-item" href="./shop.html">SHOP HOME</a>
+                          </li>
+                              <!-- MENU dropdown -->
+
+                          <li class="nav-item dropdown">  
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                              MENU
+                            </a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="./menu.html">OUR MENU</a>
+                                    <a class="dropdown-item" href="./menu.html">SIMPLE MENU</a>
+                          </li>
+                              <!-- RESERVATION dropdown -->
+
+                          <li class="nav-item dropdown">    
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                              RESERVATION
+                            </a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="./index.html">BOOKING PAGE</a>
+                              <a class="dropdown-item" href="#">RESERVATION</a>
+                          </li>
+                              <!-- PAGES dropdown -->
+
+                          <li class="nav-item dropdown">    
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                              PAGES
+                            </a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">ABOUT</a>
+                              <a class="dropdown-item" href="#">WHAT WE OFFER</a>
+                              <a class="dropdown-item" href="#">MEET OUR TEAM</a>
+                              <a class="dropdown-item" href="#">OUR PROCESS</a>
+                              <a class="dropdown-item" href="#">CONTACT US</a>
+                              <a class="dropdown-item" href="#">GALLARY</a>
+                          </li>
+                              <!-- BLOG dropdown -->
+
+                          <li class="nav-item dropdown">    
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                              BLOG
+                            </a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">GALLERY</a>
+                              <a class="dropdown-item" href="./knowMore.html">KNOW YOUR COFFEE</a>
+                          </li>    
+
+                              <!-- SHOP dropdown -->
+
+                          <li class="nav-item dropdown">   
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                              SHOP
+                            </a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="./shop.html">SHOP LIST</a>
+                              <a class="dropdown-item" href="./shop.html">SHOP PAGES</a>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </nav>
+              </div>
+
+              <!--search icon-->
+              <div class="col-md-2 col-sm-12  search-area">
+                <a  href="./Book.html"> BOOK A TABLE</a>
+              </div>
+          </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!--form-->
+
+
+
+    <div class="row bg-img">
+      <div class="container">
+        <div class="row booking">
+          <div class="col-md-6 col-sm-12 form">
+            <h1 class="text-center">BOOK YOUR TABLE!</h1>
+            <form>
+              <!--name-->
+              <label for="">Name</label>
+              <input type="text" name="name" class="form-control" placeholder="Enter Name" required>
+      
+              <div class="row">
+                <div class="col-md-6 col-sm-12">
+                   <!--email id-->
+              <label for=""> Email</label>
+              <input type="email" name="mail" class="form-control" placeholder="Enter Email">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <!--Phone-->
+              <label> Phone</label>
+              <input type="number" name="phone" class="form-control" placeholder="Enter Number">
+                </div>
+              </div>      
+              
+              <!--Location-->
+              <label for=""> Location</label>
+              <select class="form-control">
+                  <option disabled selected value="">---Selected---</option>
+                  <option value="Raymond Boulevard 224,New york"> Raymond Boulevard 224,New york</option>
+                  <option value="2606 Saints Alley Tampa, FL 33602">2606 Saints Alley Tampa, FL 33602</option>
+                  <option value="3497 Watson Street Camden, NJ 08102"> 3497 Watson Street Camden, NJ 08102</option>
+              </select>
+
+
+              <div class="row">
+                <div class="col-md-6 col-sm-12">
+                   <!--Date-->
+              <label> Date</label>
+              <input type="date" name="date" class="form-control" placeholder="Enter Date">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <!--time-->
+              <label> Time</label>
+              <input type="time" name="time" class="form-control" placeholder="Enter time">
+                </div>
+              </div>      
+      
+              <!--order now-->
+              <label for=""> When To Order</label>
+              <select class="form-control">
+                  <option disabled selected value="">---Selected---</option>
+                  <option value="Now"> Now</option>
+                  <option value="Schedule for Later">Schedule for Later</option>
+              </select>
+      
+              <!--payment-->
+              <label for=""> Payment Option</label>
+              <select class="form-control">
+                  <option disabled selected value="">---Selected---</option>
+                  <option value="cash"> Cash</option>
+                  <option value="UPI"> UPI</option>
+                  <option value="Debit Card"> Debit Card</option>
+                  <option value="Credit Card"> Credit Card</option>
+              </select>
+      
+              <!--Table For-->
+              <label for=""> Table For</label>
+              <select class="form-control">
+                  <option disabled selected value="">---Selected---</option>
+                  <option value="one"> one</option>
+                  <option value="Two"> Two</option>
+                  <option value="Three"> Three</option>
+                  <option value="Four"> Four</option>
+                  <option value="Five"> Five</option>
+                  <option value="More"> More</option>
+              </select>
+              <button class="btn btn mt-3">BOOK</button>
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      <!--FOOTER-->
+      <div class="row footer mt-5">
+        <!--1st div-->
+        <div class="col-md-3 col-sm-12 mt-5 text-center">
+            <h3>Opening Hours</h3> <br>
+            <p style="color: white; font-family: 'Times New Roman', Times, serif; font-weight: 600;">
+                Monday - Closed <br><br>
+                Tuesday - 9:00 - 22:00 <br><br>
+                Wednesday - 9:00 - 22:00 <br><br>
+                Thursday - 9:00 - 22:00 <br><br>
+                Friday * - 9:00 - 1:00 <br><br>
+                Saturday * - 12:00 - 01:00 <br><br>
+                Sunday - 9:00 - 22:00 <br><br>
+                Call: + 1 202 555 0122 <br><br>
+            </p>
+        </div>
+    
+        <!--2nd div-->
+        <div class="col-md-3 col-sm-12 mt-5 Latest-Post text-center">
+            <h3>Latest Post</h3> <br>
+            <a href="#" class="link"><p>EXPAND YOUR MIND, AND CHANGE EVERYTHING <br></p></a>
+            <p class="dates">14.02.2017<br></p>
+            <hr id="hr4">
+            <a href="#" class="link"><p>PLACES TO GET LOST <br></p></a>
+            <p class="dates">14.02.2017<br></p>
+            <hr id="hr4">
+            <a href="" class="link"><p>LEWIS HOWES <br></p></a>
+            <p class="dates">14.02.2017<br></p>
+            <hr id="hr4">
+            <a href="#" class="link"><p>ELEVATE YOUR EXPERIENCE <br></p></a>
+            <p class="dates">14.02.2017<br></p>
+            <hr id="hr4"><br>
+        </div>
+    
+        <!--3rd div-->
+        <div class="col-md-3 col-sm-12 mt-5 contact">
+            <h3 class="mb-4">Contact Us</h3>
+            <a href="#" class="text-center"><i class="fas fa-phone-alt"></i> +91 8274854773</a>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDbtnwFSZdKKmNMDbQJGcDRZZRlDGJNFFBnhfZXJLFHfMdGxSRvcdfhdLRBrQCMxXVktSfr" class="text-center mt-3"><i class="fas fa-envelope"></i> ananyaghosh.2106@gmail.com</a>
+    
+            <h3 class="mb-4 mt-5">Other Locations</h3>
+            <h6 class="mb-3">BARISTA COFFEE SHOP</h6>
+            <p style="color: white; font-family: 'Times New Roman', Times, serif; font-weight: 300; text-align: center;">2606 Saints Alley <br>Tampa, FL 33602</p>
+            <hr id="hr4">
+            <h6 class="mb-2 mt-2">BARISTA CAFE</h6>
+            <p style="color: white; font-family: 'Times New Roman', Times, serif; font-weight: 300; text-align: center;">3497 Watson Street <br>Camden, NJ 08102</p>
+            <hr id="hr4">    
+        </div>
+    
+        <!--4th div-->
+        <div class="col-md-3 col-sm-12 mt-5 Location">
+            <h3 class="mb-4">Our Location</h3>  
+            <iframe class="maps mb-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.259744746499!2d-74.13093742450043!3d40.73430973625037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c253ff3c8952a7%3A0xde66a9f7c2da60cf!2s224%20Raymond%20Blvd%2C%20Newark%2C%20NJ%2007105%2C%20USA!5e0!3m2!1sen!2sin!4v1727111962869!5m2!1sen!2sin" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <a href="#"><i class="fas fa-map-marker"></i> Raymond Boulevard 224, New York</a>
+        </div>
+    
+        <!-- Horizontal line -->
+        <div class="col-md-12 col-sm-12"> 
+            <div class="line"></div>
+        </div>
+        <h6 class="copyright">Copyright 2024.Ananya Ghosh.All Rights Reserved</h6>
+    </div>
+  </div>
+
+
+
+
+</body>
+</html>

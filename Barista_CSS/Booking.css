@@ -1,0 +1,196 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    background-color: rgb(21,20,18);
+}
+.top-header{
+    height: 90px;
+    background-color: black;
+}
+.menu-area{
+    height: 90px;
+
+}
+.menu-area .dropdown-menu a:hover{
+    background-color: #C7A17A;
+    color: white;
+}
+#navbarNavDropdown .dropdown-toggle{
+    color: white;
+}
+#navbarNavDropdown .dropdown-toggle:hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #C7A17A;
+}
+.search-area a{
+    background-color: #C7A17A;
+    border: none;
+    color: white;
+    padding: 5px 10px; 
+    text-align: center;
+    font-size: 15px;
+    margin: 1px 2px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+.search-area{
+    margin-top: 35px;
+}
+.search-area a:hover {
+    background-color: black;
+}
+.footer {
+    height: 600px;
+    background-color: black;
+}
+.footer .link:hover{
+    color: #C7A17A;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.footer h3{
+    text-align: center;
+    color: #C7A17A;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+}
+.footer .opening{
+    color: white;
+
+}
+.footer  .link , .footer .dates{
+    color: white;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.footer .contact a{
+    margin: auto;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 18px;
+}
+.footer .contact a:hover{
+    color: #C7A17A;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.footer .contact h6 {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+}
+.footer .Location .maps {
+    margin:auto;
+    display: block;
+    border-radius: 5px;
+}
+.footer .Location a{
+    color: white;
+    text-decoration: none;
+    margin-left: 23px;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.footer .Location a:hover{
+    color: #C7A17A;
+}
+.footer .line{
+ margin: auto;
+    display: block;
+    width: 70%;
+    height: 1px; 
+    background-color: white;
+    margin-top: -10px;
+
+}
+.footer .copyright{
+    color: white;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 14px;
+    margin: auto;
+    display: block;
+    margin-top: -10px;
+}
+#BOX_TIMING{
+    color: white;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 10px;
+    text-shadow: 4px 4px 8px #000000;
+}
+.lost a{
+    text-decoration: none;
+    color: white;
+}
+.lost a:hover{
+    color: #C7A17A;
+}
+
+#hr4 {
+    height: 1px;
+    background-color: #C7A17A;
+    width: 70%;
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+.bg-img {
+    height: 700px;
+    position: relative;
+    z-index: 1; 
+}
+
+.bg-img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../Barista_pic/3cupsf.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .81; 
+    z-index: -1; 
+}
+.bg-img {
+margin-bottom: -48px;
+}
+.bg-img .booking .form{
+    margin-top: 30px;
+    padding: 40px;
+    margin-left: 25%;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.bg-img .booking .form .btn{
+    background-color: #C7A17A;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin: 5px 1px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.bg-img .booking .form .btn:hover{
+    background-color: black;
+}
+.bg-img .booking .form{
+    color: white;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 4px 4px 8px #000000;
+    border-radius: 10px;
+}

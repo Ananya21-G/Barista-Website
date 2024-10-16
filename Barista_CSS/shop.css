@@ -1,0 +1,202 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    background-color: rgb(21,20,18);
+}
+.top-header{
+    height: 90px;
+    background-color: black;
+}
+.menu-area{
+    height: 90px;
+
+}
+.menu-area .dropdown-menu a:hover{
+    background-color: #C7A17A;
+    color: white;
+}
+#navbarNavDropdown .dropdown-toggle{
+    color: white;
+}
+#navbarNavDropdown .dropdown-toggle:hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #C7A17A;
+}
+.search-area a{
+    background-color: #C7A17A;
+    border: none;
+    color: white;
+    padding: 5px 10px; 
+    text-align: center;
+    font-size: 15px;
+    margin: 1px 2px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+.search-area{
+    margin-top: 35px;
+}
+.search-area a:hover {
+    background-color: black;
+}
+.footer {
+    
+    height: 600px;
+    background-color: black;
+}
+.footer .link:hover{
+    color: #C7A17A;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.footer h3{
+    text-align: center;
+    color: #C7A17A;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+}
+.footer .opening{
+    color: white;
+
+}
+.footer  .link , .footer .dates{
+    color: white;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.footer .contact a{
+    margin: auto;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 18px;
+}
+.footer .contact a:hover{
+    color: #C7A17A;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.footer .contact h6 {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+}
+.footer .Location .maps {
+    margin:auto;
+    display: block;
+    border-radius: 5px;
+}
+.footer .Location a{
+    color: white;
+    text-decoration: none;
+    margin-left: 23px;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.footer .Location a:hover{
+    color: #C7A17A;
+}
+.footer .line{
+ margin: auto;
+    display: block;
+    width: 70%;
+    height: 1px; 
+    background-color: white;
+    margin-top: -10px;
+
+}
+.footer .copyright{
+    color: white;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 14px;
+    margin: auto;
+    display: block;
+    margin-top: -10px;
+}
+#BOX_TIMING{
+    color: white;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 10px;
+    text-shadow: 4px 4px 8px #000000;
+}
+.lost a{
+    text-decoration: none;
+    color: white;
+}
+.lost a:hover{
+    color: #C7A17A;
+}
+
+#hr4 {
+    height: 1px;
+    background-color: #C7A17A;
+    width: 70%;
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+.carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: rgba(0, 0, 0, 0.5); /* Add background to the icons */
+            border-radius: 50%;
+            padding: 15px;
+}
+.s-card{
+    padding: 30px;
+    text-justify: auto;
+}
+.s-card h6{
+    font-size: 17px;
+    color: #C7A17A;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+}
+.s-card h5{
+    color:white ;
+    margin-top: 15px;
+}
+.s-card .btn{
+    
+    background-color: #C7A17A;
+    border: none;
+    color: white;
+    padding: 5px 10px; 
+    text-align: center;
+    font-size: 15px;
+    margin: 1px 2px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+.s-card .btn:hover{
+    background-color: #000000;
+}
+.s-card .btn-down{
+    margin-top: 28px;
+}
+.s-card:hover{
+    border: 2px solid white;
+    transition: all 0.2s ease-in-out;
+}
+.s-head{
+    color: #C7A17A;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 30px;
+}
+.s-card img{
+    border: 3px solid #C7A17A;
+}
