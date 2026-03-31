@@ -130,18 +130,6 @@ The website showcases three café locations:
 - **Phone**: +91 8274854773
 - **Email**: ananyaghosh.2106@gmail.com
 
-## ⏰ Opening Hours
-
-| Day       | Hours           |
-|-----------|-----------------|
-| Monday    | Closed          |
-| Tuesday   | 9:00 - 22:00    |
-| Wednesday | 9:00 - 22:00    |
-| Thursday  | 9:00 - 22:00    |
-| Friday    | 9:00 - 1:00     |
-| Saturday  | 12:00 - 01:00   |
-| Sunday    | 9:00 - 22:00    |
-
 ## 🔧 Future Enhancements
 
 - [ ] Backend integration for booking system
@@ -153,9 +141,6 @@ The website showcases three café locations:
 - [ ] Loyalty program integration
 - [ ] Mobile application
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 👩‍💻 Author
 
