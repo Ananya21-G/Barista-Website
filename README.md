@@ -1,3 +1,5 @@
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-blue?style=for-the-badge)](https://ananya21-g.github.io/Barista-Website/)
+
 # ☕ Barista Coffee Shop Website
 
 A modern, responsive website for a coffee shop featuring an interactive menu, online table booking, shop functionality, and educational content about coffee. Built with HTML, CSS, Bootstrap, and JavaScript.
@@ -92,15 +94,6 @@ cd Barista-Website
 ```
 
 2. Open `index.html` in your web browser, or serve it using a local server:
-```bash
-# Using Python
-python -m http.server 8000
-
-# Using Node.js (npx)
-npx serve
-```
-
-3. Visit `http://localhost:8000` in your browser
 
 ## 🎨 Design Features
 
